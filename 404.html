@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 1. Makes the page fit phone screens. Without it, nothing is responsive. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kopi Kampung | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
+
+    <!-- 2. Bootstrap CSS: must come BEFORE our own CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- 3. Our own CSS: comes AFTER, so our styles can override Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Kopi Kampung</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Menu</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="menu-drinks.html">Drinks</a></li>
+                            <li><a class="dropdown-item" href="menu-food.html">Food</a></li>
+                            <li><a class="dropdown-item" href="menu-eat.html">Eat</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="callme.html">Call Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-body-tertiary py-5">
+        <div class="container py-lg-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 text-center">
+                    <p class="text-uppercase small fw-semibold text-body-secondary mb-2">Call me baby · Ipoh, Perak</p>
+                    <h1 class="display-5 fw-bold mb-3">If you need it can call me</h1>
+                    <p class="lead mb-4">Can call me 0105189999 I am waiting uuuuuuuuuuu.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="menu-drinks.html" class="btn btn-primary btn-lg px-4">See me</a>
+                        <a href="contact.html" class="btn btn-outline-primary btn-lg px-4">Find me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section class="text-center py-5">
+            <p class="display-1 fw-bold">404</p>
+            <h1 class="h2">Sorry, we can't find that page</h1>
+            <p class="lead">
+                The link may be old, or the page has moved.
+            </p>
+            <a href="index.html" class="btn btn-primary">
+                Back to the home page
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="bg-primary text-white py-4">
+        <div class="container text-center">
+            <small>&copy; 2026 Kopi Kampung</small>
+        </div>
+    </footer>
+
+    <!-- 4. Bootstrap JavaScript: at the end of body -->
+    <script src="js/bootstrap.bundle.min.js"></script&gt;
+<!-- 5. Our own JavaScript -->
+<script src="js/script.js"></script>
+</body>
+
+</html>
